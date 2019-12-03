@@ -4,7 +4,7 @@ import urllib.request as ur
 from bs4 import BeautifulSoup
 import re
 import importlib
-inport sys
+import sys
 importlib.reload(sys)
 def geturl(url,headears):
     r=ur.urlopen(url)
