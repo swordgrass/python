@@ -3,9 +3,8 @@
 import urllib.request as ur
 from bs4 import BeautifulSoup
 import re
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+import importlib
+importlib.reload(sys)
 def geturl(url,headears):
     r=ur.urlopen(url)
     text = r.read()
