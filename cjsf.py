@@ -37,7 +37,7 @@ def chuli(html):
 #     return booklist
 
 def main():
-    keyword = "python"
+    keyword = input()
     url="http://mlib.yznu.cn:8089/search/searchList?kw="+keyword
     headears = {"User-Agent":" Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0",
                 "Accept-Encoding":" gzip, deflate","Connection":" keep-alive",
