@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
 import urllib.request as ur
 from bs4 import BeautifulSoup
 import re
